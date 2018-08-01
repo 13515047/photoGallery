@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import home from './modules/home'
+import about from './modules/about'
 
 Vue.use(Vuex)
 
@@ -11,7 +12,8 @@ const getters = {}
 
 const store = new Vuex.Store({
   modules: {
-    home
+    home,
+    about
   },
   state,
   actions,

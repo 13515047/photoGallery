@@ -1,0 +1,29 @@
+/* CONTACT US */
+.contactUs {
+	color: rgba(102, 102, 102, 0.9);
+	padding: 3em 0 0;
+}
+.contactUs .col-md-6 {
+	padding: 0 4.5em 0 4.5em;
+}
+.contactUs .col-sm-12 {
+	margin-bottom: 3.5em;
+}
+.contactUs button {
+	width: 100%;
+	border-radius: 4px;
+  	background-color: #108ee9;
+}
+
+.contactUs .csNumber {
+	color: #108ee9;
+}
+.contactUs .csNumber img {
+	margin-right: 0.5em;
+}
+
+.contactUs .socialMedia a {
+	color: #108ee9;
+	font-size: 2em;
+	margin-right: 1.3em; 
+}

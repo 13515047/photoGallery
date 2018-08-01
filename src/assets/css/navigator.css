@@ -1,0 +1,75 @@
+/* HEADER */
+.header .row {
+	height: 60px;
+}
+.header .col-md-12 {
+	padding: 0;
+}
+
+.header nav {
+	background: #ffffff;
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.header .navbar-brand img {
+	min-width: 95px;
+}
+
+.header .menuBars {
+	border: none;
+}
+
+.header .menu {
+	text-align: right;
+}
+.header .menu a {
+	margin-left: 20px;
+	color: rgba(0, 0, 0, 0.6)
+}
+.header .menu a:hover {
+	text-decoration: none;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 64px;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 0;
+    width: 100%;
+    text-align: left;
+    padding: 10px 20px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.9px;
+	color: rgba(102, 102, 102, 0.9);
+    display: block;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: rgba(102, 102, 102, 0.9);
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}

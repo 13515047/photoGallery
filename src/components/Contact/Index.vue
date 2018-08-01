@@ -5,7 +5,7 @@
       <div class="col-md-6 col-sm-12">
         <h1>Contact us</h1>
         <div class="csNumber d-md-none">
-          <h1 class="font-weight-bold text-center"><img src="../../assets/img/customerService.png" />1-500-445</h1>
+          <h1 class="font-weight-bold text-center"><img src="@/assets/img/customerService.png" />1-500-445</h1>
         </div>
         <p class="d-md-none text-center">Or kindly fill out this form, we’ll get back to you as quickly as possible</p>
         <form>
@@ -28,7 +28,7 @@
       <div class="col-md-6 d-none d-md-block">
         <h1>Customer Support</h1>
         <div class="csNumber">
-          <h1 class="font-weight-bold"><img src="../../assets/img/customerService.png" />1-500-445</h1>
+          <h1 class="font-weight-bold"><img src="@/assets/img/customerService.png" />1-500-445</h1>
         </div>
         <p>Contact our customer support or email us at <span class="blue font-weight-bold">help@dana.id</span> if you need help</p>
 
@@ -49,4 +49,4 @@
 export default {}
 </script>
 
-<style src="../../assets/css/contactUs.css" lang="css"></style>
+<style src="@/assets/css/contactUs.css" lang="css"></style>

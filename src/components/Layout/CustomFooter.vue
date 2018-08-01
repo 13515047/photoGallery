@@ -21,4 +21,4 @@
   <!-- /END OF FOOTER -->
 </template>
 
-<style src="../../assets/css/footer.css" lang="css"></style>
+<style src="@/assets/css/footer.css" lang="css"></style>
